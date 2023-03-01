@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('./images/background-image-cats.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-parent {
+    background-color: blueviolet;
+    width: 80%;
+    height: 100vh;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
